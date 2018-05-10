@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WatcherUI="clr-namespace:WatcherUI" x:Class="SnmpWatcherUI.MainWindow"
+        Title="Snmp Watcher" Height="340" Width="1023">
+    <Grid>
+
+        <WatcherUI:UserInterface HorizontalAlignment="Left" VerticalAlignment="Top" Height="309" Width="1019"/>
+
+    </Grid>
+</Window>
